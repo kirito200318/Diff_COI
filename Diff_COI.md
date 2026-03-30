@@ -384,11 +384,17 @@ h_7 & h_8 & h_9 \end{pmatrix}$$
 
 Три точки дают всего 6 уравнений, чего хватает только для аффинного преобразования, которое имеет 6 параметров:
 
-$$\begin{pmatrix} x' 
-\\ y' \end{pmatrix} = \begin{pmatrix} a & b 
-\\ c & d \end{pmatrix} \begin{pmatrix} x 
-\\ y \end{pmatrix} + \begin{pmatrix} t_x 
-\\ t_y \end{pmatrix}$$
+$$\begin{pmatrix} 
+x' \\ 
+y' \end{pmatrix} = 
+\begin{pmatrix} 
+a & b \\ 
+c & d \end{pmatrix} 
+\begin{pmatrix} x \\ 
+y \end{pmatrix} + 
+\begin{pmatrix} 
+t_x \\ 
+t_y \end{pmatrix}$$
 
 Аффинное преобразование — это частный случай проективного (при ℎ7=ℎ8=0). Оно сохраняет параллельность линий, в отличие от полной гомографии. Поэтому три точки не позволяют определить все 8 степеней свободы проективного преобразования, и часть информации теряется.
 
